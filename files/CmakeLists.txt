@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8.9)
+project(###PROJECT_NAME###)
+file(GLOB SOURCES "src/*")
+add_executable(###PROJECT_NAME### ${SOURCES})
+target_link_libraries (###PROJECT_NAME###)
